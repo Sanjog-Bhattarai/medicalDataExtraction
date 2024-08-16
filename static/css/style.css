@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(236, 236, 236, 0.5), rgba(245, 245, 245, 0.5)), 
+                url('https://images.pexels.com/photos/4386495/pexels-photo-4386495.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    background: rgb(199, 147, 147);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #8b4b02;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #452603;
+    color: #ececec;
+    transform: scale(1.1);
+}
